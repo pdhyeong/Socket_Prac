@@ -1,4 +1,7 @@
 /hclinet
 /hserv
 /add
-/ntoar
+/ntoa
+/echo_serv
+/echo_client
+/echo_client2
