@@ -50,6 +50,8 @@ int main(int argc, char *argv[]) {
 			printf("Connect() Success client %d\n",i+1);
 		while((str_len=read(cint_sock,message , BUF_SIZE)) != 0)
 			write(cint_sock,message,str_len);
+
+		
 		close(cint_sock);
 	}
 	close(serv_sock);
