@@ -5,3 +5,6 @@
 /echo_serv
 /echo_client
 /echo_client2
+/op_serv
+/op_client
+/addr
