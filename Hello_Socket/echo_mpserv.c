@@ -42,7 +42,6 @@ int main(int argc,char *argv[]){
     serv_adr.sin_addr.s_addr = htonl(INADDR_ANY);
     serv_adr.sin_port = htons(atoi(argv[1]));
 
-    printf("hihi");
     // 가운데 강제로 캐스팅 이유는 sockaddr 형식의 주소가 필요해서 이다.
 
     if(bind(serv_sock,(struct sockaddr *)&serv_adr,sizeof(serv_adr)) == -1)
